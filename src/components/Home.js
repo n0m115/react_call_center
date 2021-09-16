@@ -1,14 +1,9 @@
-import React, { Component, Fragment } from 'react';
-import Posts from './Posts';
+import React from 'react';
 
-class Home extends Component {
-  render() {
-    return (
-      <Fragment>
-        <Posts />
-      </Fragment>
-    );
-  }
+export default function Home() {
+  return (
+    <div>
+      Home
+    </div>
+  );
 }
-
-export default Home;
